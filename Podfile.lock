@@ -1,6 +1,7 @@
 PODS:
   - Alamofire (4.7.3)
   - Cuckoo (0.11.3)
+  - GRDB.swift (3.2.0)
   - RxAlamofire (4.2.0):
     - RxAlamofire/Core (= 4.2.0)
   - RxAlamofire/Core (4.2.0):
@@ -9,6 +10,12 @@ PODS:
   - RxBlocking (4.0.0):
     - RxSwift (~> 4.0)
   - RxCocoa (4.0.0):
+    - RxSwift (~> 4.0)
+  - RxGRDB (0.11.0):
+    - RxGRDB/default (= 0.11.0)
+    - RxSwift (~> 4.0)
+  - RxGRDB/default (0.11.0):
+    - GRDB.swift (~> 3.0)
     - RxSwift (~> 4.0)
   - RxSwift (4.0.0)
   - RxTest (4.0.0):
@@ -19,6 +26,7 @@ DEPENDENCIES:
   - RxAlamofire (= 4.2.0)
   - RxBlocking (= 4.0.0)
   - RxCocoa (from `https://github.com/ReactiveX/RxSwift.git`, commit `a1e6be8`)
+  - RxGRDB
   - RxSwift (= 4.0.0)
   - RxTest (= 4.0.0)
 
@@ -26,8 +34,10 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - Cuckoo
+    - GRDB.swift
     - RxAlamofire
     - RxBlocking
+    - RxGRDB
     - RxSwift
     - RxTest
 
@@ -44,12 +54,14 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   Cuckoo: 97522dd7ac6f18adba6022bdc74aa69e82ca691a
+  GRDB.swift: c5bb04b25a9931fec937920e913787e45f96124f
   RxAlamofire: 87a9c588541210cc3e4a1f843ccc3ecf3eb98b31
   RxBlocking: 923c2c8106d80d7c2d6b276afd66ce3b10824836
   RxCocoa: 36c5f6bf8c6d4ab5512f1d54d5c86a1cc1456e0a
+  RxGRDB: 30c245cb1ff2d9ca52fe9326cb01757e97ce3202
   RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
   RxTest: 0041e792cede35e53e4749f378d21482af0e9d12
 
-PODFILE CHECKSUM: 5da747a19c0ceab1da7a20dd8d41159b847a5584
+PODFILE CHECKSUM: a5cf51fd3ad4f4cecd0520d0a872fb9ebe3bf7ad
 
 COCOAPODS: 1.5.3
