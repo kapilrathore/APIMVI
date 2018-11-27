@@ -8,13 +8,6 @@
 
 import Foundation
 
-struct Blog: Decodable, Equatable {
-  var userId: Int
-  var id: Int
-  var title: String
-  var body: String
-}
-
 enum APIStatus {
   case fetching
   case success
