@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		1ED15980F475E17FDF2B9643 /* Pods_APIMVITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9275F6122ADE4B2424663F /* Pods_APIMVITests.framework */; };
 		37DE9A6A60B5342A9CC29E4B /* Pods_APIMVI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862455AA288D805CEEE514B8 /* Pods_APIMVI.framework */; };
+		8F34A9EE21AD55C40006AC61 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F34A9ED21AD55C40006AC61 /* Repository.swift */; };
+		8F4157C821ABCB8400EA7359 /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4157C721ABCB8400EA7359 /* Blog.swift */; };
+		8F4157CA21ABCE1800EA7359 /* BlogDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4157C921ABCE1800EA7359 /* BlogDao.swift */; };
+		8F4157CC21ABD41A00EA7359 /* AppDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4157CB21ABD41A00EA7359 /* AppDatabase.swift */; };
 		8F4932B221A91D070092EB30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4932B121A91D070092EB30 /* ViewController.swift */; };
 		8F4D565421819F3500A4F3EB /* CanaryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4D565321819F3500A4F3EB /* CanaryTest.swift */; };
 		8F4D56572181A0EF00A4F3EB /* BlogModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4D56562181A0EF00A4F3EB /* BlogModelTest.swift */; };
@@ -42,6 +46,10 @@
 		566694129020739709E776F6 /* Pods-APIMVITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIMVITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APIMVITests/Pods-APIMVITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E950E1F12CA12F11174502F /* Pods-APIMVI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIMVI.release.xcconfig"; path = "Pods/Target Support Files/Pods-APIMVI/Pods-APIMVI.release.xcconfig"; sourceTree = "<group>"; };
 		862455AA288D805CEEE514B8 /* Pods_APIMVI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIMVI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F34A9ED21AD55C40006AC61 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		8F4157C721ABCB8400EA7359 /* Blog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
+		8F4157C921ABCE1800EA7359 /* BlogDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogDao.swift; sourceTree = "<group>"; };
+		8F4157CB21ABD41A00EA7359 /* AppDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDatabase.swift; sourceTree = "<group>"; };
 		8F4932B121A91D070092EB30 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F4D565321819F3500A4F3EB /* CanaryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanaryTest.swift; sourceTree = "<group>"; };
 		8F4D56552181A06200A4F3EB /* APIMVITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APIMVITests-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -169,6 +177,10 @@
 				8F6D172F2186DC6D00BD87F1 /* NetworkManager.swift */,
 				8F8FFF4F218707170061CEEF /* BlogIntentions.swift */,
 				A87748872188664B0075A57E /* BlogsView.swift */,
+				8F4157C721ABCB8400EA7359 /* Blog.swift */,
+				8F4157C921ABCE1800EA7359 /* BlogDao.swift */,
+				8F4157CB21ABD41A00EA7359 /* AppDatabase.swift */,
+				8F34A9ED21AD55C40006AC61 /* Repository.swift */,
 			);
 			path = Blogs;
 			sourceTree = "<group>";
@@ -400,10 +412,14 @@
 				8FDADDB42183112A007D9E7A /* MviLifecycle.swift in Sources */,
 				8FDADDB62183117A007D9E7A /* BlogsModel.swift in Sources */,
 				A87748882188664B0075A57E /* BlogsView.swift in Sources */,
+				8F4157CA21ABCE1800EA7359 /* BlogDao.swift in Sources */,
+				8F4157CC21ABD41A00EA7359 /* AppDatabase.swift in Sources */,
 				8F58F0BA21819B7200527232 /* AppDelegate.swift in Sources */,
 				8F8FFF50218707170061CEEF /* BlogIntentions.swift in Sources */,
+				8F4157C821ABCB8400EA7359 /* Blog.swift in Sources */,
 				8F4932B221A91D070092EB30 /* ViewController.swift in Sources */,
 				8FDADDAE21830E58007D9E7A /* BlogsState.swift in Sources */,
+				8F34A9EE21AD55C40006AC61 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

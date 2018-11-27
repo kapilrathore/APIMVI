@@ -10,7 +10,6 @@ import Foundation
 import RxSwift
 
 class BlogIntentions {
-
   private var retryIntention: Observable<Void>!
   private var searchIntention: Observable<String>!
 
